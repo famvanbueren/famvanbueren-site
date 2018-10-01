@@ -6,7 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 
-export const ProductPageTemplate = ({
+export const SchedulePageTemplate = ({
   image,
   title,
   heading,
@@ -107,7 +107,7 @@ export const ProductPageTemplate = ({
   </section>
 )
 
-ProductPageTemplate.propTypes = {
+SchedulePageTemplate.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -136,7 +136,7 @@ const ProductPage = ({ data }) => {
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <SchedulePageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}

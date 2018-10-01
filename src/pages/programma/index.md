@@ -1,7 +1,7 @@
 ---
-templateKey: 'product-page'
-path: /products
-title: Our Coffee
+templateKey: 'schedule-page'
+path: /programma
+title: Programma
 image: /img/jumbotron.jpg
 heading: What we offer
 description: >-

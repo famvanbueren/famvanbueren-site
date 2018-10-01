@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Van Bueren Familieweekend 2019',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
